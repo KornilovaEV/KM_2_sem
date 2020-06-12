@@ -3,6 +3,11 @@ def leonardo(n):
         return 1
     return leonardo(n - 1) + leonardo(n - 2) + 1
  
- 
-print(leonardo(20))
+
+try:
+    n = int(input())
+    print(leonardo(n))
+except ValueError:
+    print('Opssss, error')
+
 
