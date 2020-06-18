@@ -1,0 +1,1 @@
+{"name":"Joane", "num":4.5, "arr":[2,(4,3)], "tup":(2,'str'), "bool":True, "none":None}
